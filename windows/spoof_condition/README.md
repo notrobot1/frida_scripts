@@ -22,4 +22,6 @@ int main(){
 ```
 <p> В программе не предусмотренно успешное прохождение функции. </p>
 <p>Заускаем наш скрипт</p>
-```frida -f .\a.exe -l spoof.js --no-pause```
+```
+frida -f .\a.exe -l spoof.js --no-pause
+```
