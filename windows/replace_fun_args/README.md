@@ -22,3 +22,33 @@ int main(){
     
     return 0;
 }```
+
+
+<p> Запускаем наш скрипт </p>
+```frida -f .\func.exe -l func.js --no-pause ```
+<p>Входные данные изменились</p>
+
+<p>Поддерживаемые типы </p>
+
+
+   <li> void </li>
+    <li>pointer</li>
+    <li>int</li>
+    <li>uint</li>
+    <li>long</li>
+   <li>ulong</li>
+    <li>char</li>
+    <li>uchar</li>
+    <li>size_t</li>
+    <li>ssize_t</li>
+    <li>float</li>
+    <li>double</li>
+    <li>int8</li>
+    <li>uint8</li>
+    <li>int16</li>
+    <li>uint16</li>
+    <li>int32</li>
+    <li>uint32</li>
+    <li>int64</li>
+    <li>uint64</li>
+    <li>bool</li>
