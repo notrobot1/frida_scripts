@@ -21,11 +21,14 @@ int main(){
     see(123);
     
     return 0;
-}```
+}
+```
 
 
 <p> Запускаем наш скрипт </p>
-```frida -f .\func.exe -l func.js --no-pause ```
+```
+frida -f .\func.exe -l func.js --no-pause 
+```
 <p>Входные данные изменились</p>
 
 <p>Поддерживаемые типы </p>
