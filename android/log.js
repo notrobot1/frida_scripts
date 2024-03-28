@@ -26,8 +26,8 @@ Java.perform(function () {
    };
    Log.w.overload("java.lang.String", "java.lang.String").implementation = function (a, b) {
        send("Log.w()");
-       send(w.toString());
-       send(w.toString());
+       send(a.toString());
+       send(b.toString());
        return this.w.overload("java.lang.String", "java.lang.String").call(this, a, b);
    };
 });
